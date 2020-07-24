@@ -3,11 +3,10 @@ var connection
 
 
 connection = mysql.createConnection({
-    username: "root",
-    password: "",
+    // username: "root",
+    // password: "",
     database: "burgers_db",
-    host: process.env.JAWSDB_URL,
-    port: 3306
+    host: process.env.JAWSDB_URL
 });
 
 
