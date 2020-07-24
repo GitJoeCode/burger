@@ -5,7 +5,7 @@ var connection
 connection = mysql.createConnection({
     username: "root",
     password: "",
-    database: "burgers_db",
+    database: "burger_sequelize_db",
     host: "127.0.0.1",
     port: 3306
 });
