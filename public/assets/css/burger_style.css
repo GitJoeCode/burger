@@ -1,20 +1,19 @@
-body {
-    font-family: 'Red Rose', cursive !important; 
-}
-
 .jumbotron {
-    max-height:         240px;
-    position:                       relative;
-    padding-bottom:                 6;
-    padding-top:                    0;
+    background-image: url("../images/burger_emoji.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    max-height: 240px;
+    position: relative;
+    padding-bottom: 6;
+    padding-top: 0;
 }
 
 h1 {
-    font-size:                      220px;
+    font-size: 220px;
 }
 
 .panelheading {
-    font-family: 'Red Rose', cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #newburger {
@@ -22,10 +21,10 @@ h1 {
 }
 
 #lefthead {
-    background-color: #0da536;
+    background-color:teal;
     color: white;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 #eatbutton, #trashbutton {
@@ -36,5 +35,5 @@ h1 {
     background-color: #ce2522;
     color: white;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
